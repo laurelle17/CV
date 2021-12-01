@@ -159,7 +159,7 @@
     //determinons du nombre d'anne d'experience professionnelle 
     @$datedebut = date('2012-12');
     @$datefin = date('2013-6');
-    @$responsablecommercial = $datedebut + $datefin ;
+    @$responsablecommercial = $datefin - $datedebut ;
 ?>
 <!DOCTYPE html>
 <html lang="en">
