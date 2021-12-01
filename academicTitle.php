@@ -11,7 +11,7 @@
         <div class="titleBar">   
             <div class="imageText">
                 <img src="image/motarboard_30px.png" alt="" class="geantIcon">
-                <div class="titleText"><?php echo $academicTitle[0]?><?php echo"le dure est $responsablecommercial."?></div>
+                <div class="titleText"><?php echo $academicTitle[0]?><?php echo"la duree est $responsablecommercial. jours"?></div>
             </div>
             <img src="image/menu_2_24px.png" alt="">
         </div>
