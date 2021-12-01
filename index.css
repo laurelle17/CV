@@ -1,0 +1,435 @@
+@import"bootstrap-4.4.1-dist/css/bootstrap.css";    
+* {
+    box-sizing: border-box;
+}
+body{
+    background-color: #F0F0F0;
+}
+.contentAll {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-flow: row;
+}
+
+.leftcontent {
+    width: 42%;
+    margin-right: 2%;
+}
+
+.Buttonsent {
+    background-color: #E34756;
+    border-style: none;
+    border-radius: 100%;
+    position: absolute;
+    width: 70px;
+    height: 70px;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 5px 5px 10px rgba(101, 101, 105, 0.555);
+    /* margin-top: -5%; */
+    top: 42%;
+    right: 60%;
+}
+
+.bacgroundimage{
+   /* background: linear-gradient(rgba(32, 32, 221, 0.5), rgba(32, 32, 221, 0.5));*/
+    background: url("image/profil.jpg");
+    box-shadow: inset 500px 0px 0px 500px rgba(32, 32, 221, 0.336);
+    background-size: cover;
+    width: 100%;
+    height: 80%;
+    border-radius: 5px 5px 0px 0px;
+    padding: 1.5%;
+    opacity: 0, 5;
+    display: flex;
+    flex-flow: column;
+    justify-content: space-between;
+}
+.seachbar{
+    background-color: rgb(250, 248, 250);
+    width: 100%;
+    height: 25%;
+    border-radius: 5px;
+    display: flex;
+    flex-flow: row;
+    align-items: center;
+    justify-content: space-between;
+    outline: none;
+    padding: 2%;
+}
+.imgprofil1 { 
+    width: 30px;
+    height: 30px; 
+}
+.textrecherche{
+    height: 100%;
+    border-style: none;
+    background-color: rgb(250, 248, 250);
+    outline: none;
+    font-size: 15px;  
+}
+.sent{
+    height: 40px;
+    width: 40px;
+}
+.paersonalinformation{
+    display: flex;
+    margin-top: 150px;
+    margin-left: 30px;
+    flex-flow: row;
+    align-items: center;  
+}
+.profilimage{
+    border-radius: 50%;
+    width: 120px;
+    height: 120px;
+}
+.nom {
+    font-size: xx-large;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.textany{
+    font-size: x-large;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif; 
+}
+.coordonate {
+    display: flex;
+    flex-flow: column;
+    background-color: rgb(54, 68, 201);
+    width: 100%;
+    padding: 3%;
+}
+.birthday {
+    display: flex;
+    flex-flow: row;
+    width: 100%;
+}
+.address {
+    margin-top: 3%;
+    display: flex;
+    flex-flow: row;
+    width: 100%;
+}
+
+.telephone {
+    margin-top: 3%;
+    display: flex;
+    flex-flow: row;
+    width: 100%;
+}
+.mail {
+    margin-top: 3%;
+    display: flex;
+    flex-flow: row;
+    width: 100%;
+    margin-bottom: 3%;
+}
+
+.bottomLine {
+    margin-top: 3%;
+    height: 2px;
+    background-color: rgb(105, 118, 238);
+}
+.informationproject{
+    display: flex;
+    justify-content: space-between;
+}
+.detailinformation{
+    display: flex;
+    flex-flow: column;
+    background-color: white;
+    width: 100%;
+    padding: 3%;
+}
+.progbaer{
+    width: 100%;
+    height: 5px;
+    position: relative;
+    background-color: grey;
+    display: flex;
+    margin-top: 16px;
+}
+.colorbar{
+    background-color: rgb(105, 118, 238);
+    height: inherit;
+    width: 80%;
+}
+.entibar{
+    height: 20px;
+    width: 20px;
+    border-radius: 50%;
+    background-color: rgb(105, 118, 238);
+    position: absolute;
+    top: -8px;
+}
+
+.Project {
+    display: flex;
+    flex-flow: column;
+    justify-content: space-between;
+}
+.checked {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 5%;
+}
+.mediumText{
+    font-size: large;
+    color: rgb(32, 30, 30);
+    font-family: Arial, Helvetica, sans-serif;
+}
+.simpleText{
+    font-size: x-large;
+    color: rgb(32, 30, 30);
+    font-family: Arial, Helvetica, sans-serif;
+}
+.Project{
+    border-radius: 0px 0px 5px 5px;
+}
+.meduimBlackText {
+    font-size: x-large;
+    color: rgb(0, 0, 0);
+    font-family: Arial, Helvetica, sans-serif;
+    margin-bottom: 0.5%;
+}
+.doubleDiv {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    height: 15%;
+}
+
+.interestPoint {
+    height: 100%;
+    width: 63%;
+    background-color: white;
+    border-radius: 5px;
+    margin-right: 2%;
+    padding: 2%;
+    display: flex;
+    flex-flow: column;
+}
+.pleasureImage {
+    width: 20%;
+    height: 50%;
+}
+.simpleBlueText {
+    font-size: large;
+    color: rgb(105, 118, 238);
+    font-family: Arial, Helvetica, sans-serif;
+}
+.ImageInteret {
+    width: 100%;
+    /*overflow-x: scroll;*/
+    display: flex;
+}
+.GreyText {
+    font-size: medium;
+    color: rgb(91, 92, 94);
+    font-family: Arial, Helvetica, sans-serif;
+}
+.language {
+    height: 100%;
+    width: 33%;
+    background-color: white;
+    border-radius: 5px;
+    margin-left: 2%;
+    padding: 2%;
+}
+
+.bigGreyText {
+    font-size: x-large;
+    color: rgb(91, 92, 94);
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 5%;
+}
+
+.checkLanguage {
+    display: flex;
+    align-items: center;
+    margin-top: 10%;
+}
+
+
+.academicTitle {
+    width: 98%;
+    background-color: rgb(105, 118, 238);
+    display: flex;
+    align-items: center;
+    border-radius: 5px 5px 0px 0px;
+    height: 6%;
+    margin-top: 3%;
+    padding: 1%;
+}
+
+.listAcademicCursus {
+    background-color: white;
+    padding: 2%;
+}
+
+.dateSpeciality {
+    display: flex;
+}
+.leftIcon {
+    width: 40px;
+    height: 40px;
+}
+.rigthBigOne {
+    display: flex;
+    flex-flow: column;
+    width: 56%;
+}
+
+.titleBar {
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.imageText {
+    display: flex;
+    width: 70%;
+    align-items: center;
+}
+
+.titleProfessionalExp {
+    width: 100%;
+    background-color: rgb(105, 118, 238);
+    display: flex;
+    align-items: center;
+    border-radius: 5px 5px 0px 0px;
+    height: 5%;
+}
+
+.titleText {
+    font-size: xx-large;
+    color: rgb(255, 255, 255);
+    font-family: Arial, Helvetica, sans-serif;
+}
+.geantIcon {
+    width: 10%;
+    height: 100%;
+}
+
+.meduimBlackText {
+    font-size: x-large;
+    color: rgb(0, 0, 0);
+    font-family: Arial, Helvetica, sans-serif;
+    margin-bottom: 0.5%;
+}
+
+.simpleBlueText {
+    font-size: large;
+    color: rgb(105, 118, 238);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.simpleGreyText {
+    font-size: medium;
+    color: rgb(91, 92, 94);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.listProfessionalExp {
+    background-color: white;
+    padding: 2%;
+}
+
+.greyBottomLine {
+    margin-top: 3%;
+    height: 1px;
+    background-color: rgb(198, 199, 204);
+}
+.bigscrollOne{
+    padding: 10px;
+    background-color: white;
+    margin-bottom: 3%;
+}
+
+.scrollOne {
+    overflow-y: scroll;
+    flex-flow: column;
+    height: 95%;
+    border-radius: 0px 0px 5px 5px;
+    /*margin-bottom: 3%;*/
+}
+.scrollOne::-webkit-scrollbar{
+    width: 8px;
+
+}
+.scrollOne::-webkit-scrollbar-track{
+    box-shadow:inset 0 0 5px gray;
+    border-left: 3px solid white;
+    border-right: 3px solid white;
+}
+.scrollOne::-webkit-scrollbar-thumb{
+    background-color: rgb(54, 53, 53);
+    border-radius: 20px;
+}
+
+ /*.bigscrollTwo{
+    width: 98%;
+    padding: 2%;
+    height: 61%;
+    background-color: white;
+    margin-bottom:3%;
+}*/
+/*.scrollTwo {
+    overflow-y: scroll;
+    /*display: flex;/* 0/*
+    flex-flow: column;
+    height: 100%;
+    border-radius: 0px 0px 5px 5px;
+    /*margin-bottom: 3%;*/ /*
+}*//*
+.scrollTwo::-webkit-scrollbar{
+    width: 8px;
+
+}
+.scrollTwo::-webkit-scrollbar-track{
+    box-shadow:inset 0 0 5px gray;
+    border-left: 3px solid white;
+    border-right: 3px solid white;
+}
+.scrollTwo::-webkit-scrollbar-thumb{
+    background-color: rgb(54, 53, 53);
+    border-radius: 20px;
+}*/
+@media (max-width: 600px) {
+    .contentAll {
+        height: 100%;
+        width: 100%;
+        display: flex;
+        flex-flow: column;
+    }
+
+    .leftcontent {
+        width: 100%;
+        margin-right: 2%;
+    }
+    .rigthBigOne {
+        display: flex;
+        flex-flow: column;
+        width: 100%;
+    }
+    .circleButton {
+        background-color: #E34756;
+        border-style: none;
+        border-radius: 100%;
+        position: absolute;
+        width: 70px;
+        height: 70px;
+        align-items: center;
+        justify-content: center;
+        box-shadow: 5px 5px 10px rgba(101, 101, 105, 0.555);
+        /* margin-top: -5%; */
+        top: 46%;
+        right: 8%;
+    }
+}
